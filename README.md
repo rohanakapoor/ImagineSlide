@@ -1,2 +1,2 @@
 # ImagineSlide
-Git Repo for the Imagine Slide Game
+This project is the imagine slide puzzle.
