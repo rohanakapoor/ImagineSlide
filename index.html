@@ -12,9 +12,9 @@
             margin: 0;
         }
         .startbtn{
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 100px;
+            position: absolute;
+            top: 45%;
+            left: 45%;
             background-color: #708986;
             color:#EEEDE7;
             width: 100px;
@@ -38,18 +38,11 @@
             top: 25%;
             color: #EEEDE7;
         }
-        .spanborder{
-            position: absolute;
-            top:35%;
-            left:50%;
-        }
     </style>
 </head>
 <body >
-    <div class="spanborder">
     <h1 class="maintitle animated__text">Jigsaw Puzzle</h1>
     <div id="firstpageStartbtn" class="startbtn"><h5>Start</h5></div>
-    </div>
     <script src="animated_texts.min.js"></script>
     <script>
         document.getElementById("firstpageStartbtn").addEventListener("click", function() {window.location.href="main.html"});       
@@ -64,6 +57,6 @@
             rotate: -1
         })
    </script>   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="animation.js"></script>
 </body>
 </html>
