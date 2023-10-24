@@ -239,7 +239,14 @@
         img_file.addEventListener('change', loadFiles);
         function loadFiles(e) {
             file = img_file.files[0];
-            adden_file();
+            if(file.name.split('.').pop()==="jpg" || file.name.split('.').pop()==="png" || file.name.split('.').pop()==="JPG" || file.name.split('.').pop()==="PNG")
+            {
+                adden_file();
+            }
+            else
+            {
+                alert("File formate is incorrect")
+            }
         }
         function adden_file() {
             setup.puzzle_fifteen.art.url = window.URL.createObjectURL(file)
