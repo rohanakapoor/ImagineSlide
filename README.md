@@ -2,7 +2,7 @@ The Purpose of this project is to create an Image Slide Puzzle where an person c
 
 We have used JavaScript and Normal HTML as technology stack to create this Game. Below is the step by step documentation on how users can interact with this game, Users can increase/reduce the complexcity of the game by putting a number on the left colum Named Difficulty lower the number lesser is the complexcity, User can also set the height and width of the puzzle pieces by putting number according to there needs same with the Grid Width and height, The Move time number shows on what speed the puzzle piece can be moved higher the number lower the speed is Un-Toggling the radio button Named Number, the game will show you the number on each puzzle piece this is to show and help users if they need any help while solving the puzzle. Puzzle File radio button will just put this whole game into the smaller picture this is just to fit into the differenct screeens like mobile etc.
 
-Step 1: User Click on the URL (https://rohanakapoor.github.io/ImagineSlide/) and Welcome Screen will appears
-Step 2 : User Clicks on Start Button to start the game.
-Step 3 : If you upload an image file which is not of format jpg or png it will alert the user that file format is wrong
+Step 1: User Click on the URL (https://rohanakapoor.github.io/ImagineSlide/) and Welcome Screen will appears<br>
+Step 2 : User Clicks on Start Button to start the game.<br>
+Step 3 : If you upload an image file which is not of format jpg or png it will alert the user that file format is wrong<br>
 Step 4 : Once the correct format file is uploaded then it will break the image into small slides for participants to play and solve the puzzle.
